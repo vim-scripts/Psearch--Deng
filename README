@@ -1,0 +1,17 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4609
+
+Vim global plugin Psearch for parallel searching the pattern string in your current file.
+
+There are two functions to find the pattern string. The second one support regular expression.
+
+Psearch(arg1, arg2) is a function which can find your designated pattern string parallel and locate the cursor at the position of the next or the previous pattern string.
+@param arg1	pattern string
+@param arg2	find direction 
+			'D' means find the next one
+			'F' means find the previous one
+
+PRsearch(arg1, arg2) is a function which can find your designated regular expression parallel and locate the cursor at the position of the next or the previous string which matches the regular expression. 
+@param arg1	regular expression
+@param arg2	find direction 
+			'D' means find the next one
+			'F' means find the previous one
